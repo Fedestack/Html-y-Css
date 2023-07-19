@@ -1,0 +1,26 @@
+h1{
+    color:darkcyan;
+}
+h2{
+    color: blue;
+}
+table{
+    border-collapse: collapse;
+
+    color: green;
+    
+}
+table,td,th{
+    border: 2px solid black;
+
+}
+div{
+    color: darkolivegreen;
+
+}
+.f1{
+    color: rgb(240, 159, 100);
+}
+.f2{
+    color: red;
+}

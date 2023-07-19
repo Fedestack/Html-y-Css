@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Registrar un usuario</h1>
+    <form
+      action="/controlador-registro"
+      method="post"
+      enctype="multipart/form-data"
+    >
+      <div>
+        <label for="Nombre">Nombre del usuario</label>
+        <br>
+        <input name="Nombre" type="text" />
+      </div>
+      <div>
+        <label for="Contraseña">Contraseña del usuario</label>
+        <br>
+        <input name="Contraseña" type="password" />
+      </div>
+      <div>
+        <label for="Edad">Edad del usuario</label>
+        <br>
+        <input name="Edad" type="number" />
+      </div>
+      <div>
+        <label for="Fecha">Fecha de nacimiento del usuario</label>
+        <br>
+        <input name="Fecha" type="date" />
+      </div>
+      <div>
+        <label for="sexo">Sexo del usuario</label>
+        <br>
+        <input name="sexo" type="radio" value="f">
+        <label>Mujer</label>
+        <br>
+        <input name="sexo" type="radio" value="m">
+        <label>Hombre</label>
+        <br>
+        <input name="sexo" type="radio" value="otro">
+        <label>Prefiero no decir</label>
+      </div>
+      <div>
+        <label for="pais">Pais nacimiento del usuario</label><br>
+        <select name="pais">
+            <option value="arg">Argentina</option>
+            <option value="bra">Brasil</option>
+            <option value="chi">Chile</option>
+        </select>
+    </div>
+    <div>
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+
+    </div>
+    </form>
+
+
+  </body>
+</html>
